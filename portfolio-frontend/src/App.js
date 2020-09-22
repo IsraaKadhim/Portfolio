@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import "./App.css";
+import "./index.css";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -20,8 +21,8 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" },
       ],
       home: {
-        title: "Site Title",
-        subTitle: "Site Subtitle",
+        title: "Hello there,",
+        subTitle: "It's nice to have you.",
         text: "Checkout my projects below",
       },
       about: {
@@ -36,7 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container className="p-0" fluid={true}>
+        <Container className="p-0 " fluid={true}>
           <Header />
 
           <Route

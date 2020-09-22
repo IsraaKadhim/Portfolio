@@ -24,7 +24,7 @@ class Carousel extends React.Component {
         {
           id: 1,
           title: "Keeper App",
-          subTitle: "MERN Stack",
+          subTitle: "React Frontend Design",
           imgSrc: todo,
           link: "https://powerful-stream-53113.herokuapp.com/",
           selected: false,

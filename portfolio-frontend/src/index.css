@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+.nav-color {
+  background-color: #ece4de;
+}
+
+.footer-color {
+  background-color: #ece4de;
+}
+
 .i-card {
   margin: 20px;
 }
@@ -44,6 +52,10 @@ code {
 
 .s-space {
   margin-top: 20px;
+}
+
+.l-space {
+  margin-top: 103px;
 }
 
 .success-msg {

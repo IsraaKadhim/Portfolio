@@ -4,9 +4,9 @@ import { Navbar, Nav } from "react-bootstrap";
 
 function Header() {
   return (
-    <header>
+    <header className="nav-color">
       <Navbar className="border-bottom" bg="transparent" expand="lg">
-        <Navbar.Brand>Israa Kadhim</Navbar.Brand>
+        <Navbar.Brand> I S R A A K A D H I M </Navbar.Brand>
 
         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
 

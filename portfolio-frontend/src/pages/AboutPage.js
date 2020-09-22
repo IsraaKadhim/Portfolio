@@ -28,6 +28,7 @@ function AboutPage(props) {
         <div className="s-space" />I consider myself to be a self-starter and a
         fighter, for what I'm passionate about. I'm willing to go where the
         opportunity takes me, and I'm not afraid to conquer a new skill.
+        <div className="l-space" />
       </Content>
     </div>
   );
