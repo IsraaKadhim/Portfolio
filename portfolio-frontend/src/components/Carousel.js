@@ -1,11 +1,12 @@
 import React from "react";
+import { Container, Row } from "react-bootstrap";
 
 import Card from "../components/Card";
+
 import todo from "../assests/images/todo.png";
 import newsletter from "../assests/images/newsletter.png";
-import { Container, Row } from "react-bootstrap";
-// import tindog from "../assests/images/tindog.png";
-// import blogApp from "../assests/images/blogApp.png";
+import tindog from "../assests/images/tindog.png";
+import blog from "../assests/images/blog.png";
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -14,15 +15,6 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "TinDog App",
-          subTitle: "Frontend Design",
-          imgSrc:
-            "https://www.dogsismylife.com/wp-content/uploads/cache/tindog-app-1w72q73kw29gegrvtiq4o1tjvdpz8gkylukv6lgepudg.jpg",
-          link: "",
-          selected: false,
-        },
-        {
-          id: 1,
           title: "Keeper App",
           subTitle: "React Frontend Design",
           imgSrc: todo,
@@ -30,11 +22,18 @@ class Carousel extends React.Component {
           selected: false,
         },
         {
+          id: 1,
+          title: "TinDog App",
+          subTitle: "Bootstrap Frontend Design",
+          imgSrc: tindog,
+          link: "https://github.com/IsraaKadhim/TinDog",
+          selected: false,
+        },
+        {
           id: 2,
           title: "Blog App",
-          subTitle: "Fullstack",
-          imgSrc:
-            "https://themeforest.img.customer.envatousercontent.com/files/280014070/01_preview.__large_preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=5eccb3ec968f2cd30ca673ab8a425de6",
+          subTitle: "Frontend Design + MongoDB Database",
+          imgSrc: blog,
           link: "https://github.com/IsraaKadhim/blog",
           selected: false,
         },

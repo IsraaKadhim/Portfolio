@@ -18,17 +18,16 @@ function AboutPage(props) {
         certificate (I have various knowledge and experience with JavaScript,
         React.JS, jQuery, Bootstrap, Node.js, Express.js, JSON, EJS, APIs, and
         more). I then returned to school to finish my clinical requirments and
-        graduate, then proceeded with my programming journey, while teaching
-        myself how to sew garments.
+        graduate, then proceeded with my programming journey, all while prusuing
+        other hobbies.
         <div className="s-space" />
         Over a year later, here I am, working on my independent clothing line,
-        building websites for small buisnesses on the side, and haunting for an
-        internship position to apply my passion of programming and working with
-        others.
+        building websites for small buisnesses on the side, and hunting for an
+        internship position where I am able to apply my passion of programming
+        and connecting with others.
         <div className="s-space" />I consider myself to be a self-starter and a
         fighter, for what I'm passionate about. I'm willing to go where the
         opportunity takes me, and I'm not afraid to conquer a new skill.
-        <div className="l-space" />
       </Content>
     </div>
   );
